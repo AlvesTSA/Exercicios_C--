@@ -17,7 +17,7 @@ int main(){
     
     salario = ganho_hora*hora_mes;
     
-    cout << "Seu salário é: " <<salario <<endl;
+    cout << "Seu salário é: " <<salario <<"reais" <<endl;
     
     return 0;
     
