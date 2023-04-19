@@ -1,7 +1,7 @@
 # Exercicios_C++
 ## Conhecendo e treinando C++
  
- 
+ ### Estrutura sequencial
  
 
 1.Faça um Programa que mostre a mensagem "Alo mundo" na tela.
