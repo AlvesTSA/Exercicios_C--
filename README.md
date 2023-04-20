@@ -1,4 +1,8 @@
 # Exercicios_C++
+<div align="center">
+<img src="https://user-images.githubusercontent.com/116441568/233225552-e0279980-e35d-49d3-963a-0f51d61f8090.jpg" width="100px" />
+</div>
+
 ## Conhecendo e treinando C++
  
  ### Estrutura sequencial
