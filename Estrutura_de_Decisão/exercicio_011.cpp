@@ -21,58 +21,60 @@ O novo salário, após o aumento.
 */
 
 #include <iostream>
+
 using namespace std;
 
-int main(){
-
+int main() {
     float salario = 0;
     float aumento = 0;
     float new_salario = 0;
     int percentual = 0;
-
+  
     cout << "Informe seu salário atual: ";
     cin >> salario;
 
-    if (salario > 0 && salario <= 280){
-
+    if (salario > 0 && salario <= 280) {
         percentual = 20;
-        aumento = salario*0.2;
+        aumento = salario * 0.2;
         new_salario = aumento + salario;
 
-        cout << "Salário sem reajuste R$: \nPercentual de aumento aplicado: \nAumento R$: \nSalário atual R$: ", salario, percentual, aumento, new_salario;
-
+        cout << "Salário sem reajuste R$: " << salario << endl;
+        cout << "Percentual de aumento aplicado: " << percentual << "%" << endl;
+        cout << "Aumento R$: " << aumento << endl;
+        cout << "Salário atual R$: " << new_salario << endl;
     }
-    else if(salario > 200 && salario <= 700){
-
+    else if (salario > 280 && salario <= 700) {
         percentual = 15;
-        aumento = salario*0.15;
+        aumento = salario * 0.15;
         new_salario = aumento + salario;
 
-        cout << "Salário sem reajuste R$:\nPercentual de aumento aplicado: \nAumento R$: \nSalário atual R$: ", salario, percentual, aumento, new_salario;
-        
+        cout << "Salário sem reajuste R$: " << salario << endl;
+        cout << "Percentual de aumento aplicado: " << percentual << "%" << endl;
+        cout << "Aumento R$: " << aumento << endl;
+        cout << "Salário atual R$: " << new_salario << endl;
     }
-    else if(salario > 700 && salario <= 1500){
-
+    else if (salario > 700 && salario <= 1500) {
         percentual = 10;
-        aumento = salario*0.1;
+        aumento = salario * 0.1;
         new_salario = aumento + salario;
 
-        cout << "Salário sem reajuste R$: \nPercentual de aumento aplicado: \nAumento R$: \nSalário atual R$: ", salario, percentual, aumento, new_salario;
-
+        cout << "Salário sem reajuste R$: " << salario << endl;
+        cout << "Percentual de aumento aplicado: " << percentual << "%" << endl;
+        cout << "Aumento R$: " << aumento << endl;
+        cout << "Salário atual R$: " << new_salario << endl;
     }
-    else if(salario > 1500){
-
+    else if (salario > 1500) {
         percentual = 5;
-        aumento = salario*0.05;
+        aumento = salario * 0.05;
         new_salario = aumento + salario;
 
-        cout << "Salário sem reajuste R$: \nPercentual de aumento aplicado: \nAumento R$: \nSalário atual R$: ", salario, percentual, aumento, new_salario;
-
+        cout << "Salário sem reajuste R$: " << salario << endl;
+        cout << "Percentual de aumento aplicado: " << percentual << "%" << endl;
+        cout << "Aumento R$: " << aumento << endl;
+        cout << "Salário atual R$: " << new_salario << endl;
     }
-    else{
-
-        cout << "Informe um valor válido";
-
+    else {
+        cout << "Informe um valor válido" << endl;
     }
     
     return 0;
