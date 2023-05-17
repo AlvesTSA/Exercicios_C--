@@ -57,7 +57,13 @@ int main(){
         salario_liquido = salario_bruto - desconto_total;
         fgts = salario_bruto*0.11;
 
-        cout << "Salário bruto: R$ \nDesconto IR (0 porcento): R$ \nDesconto INSS (10 porcento): R$ \nDesconto Sindicato (3 porcento): R$ \nFGTS (11 porcento): R$ \nDesconto total: R$ \nSalário líquido: R$ ", salario_bruto, desconto_IR, desconto_INSS, desconto_Sind, fgts, desconto_total, salario_liquido;
+        cout << "Salário bruto: R$ " << salario_bruto << endl;
+        cout << "Desconto IR (0 porcento): R$ " << desconto_IR << endl;
+        cout << "Desconto INSS (10 porcento): R$ " << desconto_INSS << endl;
+        cout << "Desconto Sindicato (3 porcento): R$ " << desconto_Sind << endl;
+        cout << "FGTS (11 porcento): R$ " << fgts << endl;
+        cout << "Desconto total: R$ " << desconto_total << endl;
+        cout << "Salário líquido: R$ " << salario_liquido << endl;
 
     }
     else if (salario_bruto > 900 && salario_bruto <= 1500){
@@ -69,7 +75,13 @@ int main(){
         salario_liquido = salario_bruto - desconto_total;
         fgts = salario_bruto*0.11;
 
-        cout << "Salário bruto: R$ \nDesconto IR (5 porcento): R$ \nDesconto INSS (10 porcento): R$ \nDesconto Sindicato (3 porcento): R$ \nFGTS (11 porcento): R$ \nDesconto total: R$  \nSalário líquido: R$ ", salario_bruto, desconto_IR, desconto_INSS, desconto_Sind, fgts, desconto_total, salario_liquido;
+        cout << "Salário bruto: R$ " << salario_bruto << endl;
+        cout << "Desconto IR (5 porcento): R$ " << desconto_IR << endl;
+        cout << "Desconto INSS (10 porcento): R$ " << desconto_INSS << endl;
+        cout << "Desconto Sindicato (3 porcento): R$ " << desconto_Sind << endl;
+        cout << "FGTS (11 porcento): R$ " << fgts << endl;
+        cout << "Desconto total: R$ " << desconto_total << endl;
+        cout << "Salário líquido: R$ " << salario_liquido << endl;
 
     }
     else if (salario_bruto > 1500 && salario_bruto <= 2500){
@@ -81,7 +93,13 @@ int main(){
         salario_liquido = salario_bruto - desconto_total;
         fgts = salario_bruto*0.11;
 
-        cout << "Salário bruto: R$ \nDesconto IR (10 porcento): R$ \nDesconto INSS (10 porcento): R$ \nDesconto Sindicato (3 porcento): R$ \nFGTS (11 porcento): R$ \nDesconto total: R$   \nSalário líquido: R$ ", salario_bruto, desconto_IR, desconto_INSS, desconto_Sind, fgts, desconto_total, salario_liquido;
+        cout << "Salário bruto: R$ " << salario_bruto << endl;
+        cout << "Desconto IR (10 porcento): R$ " << desconto_IR << endl;
+        cout << "Desconto INSS (10 porcento): R$ " << desconto_INSS << endl;
+        cout << "Desconto Sindicato (3 porcento): R$ " << desconto_Sind << endl;
+        cout << "FGTS (11 porcento): R$ " << fgts << endl;
+        cout << "Desconto total: R$ " << desconto_total << endl;
+        cout << "Salário líquido: R$ " << salario_liquido << endl;
 
     }
     else if (salario_bruto > 2500){
@@ -93,11 +111,18 @@ int main(){
         salario_liquido = salario_bruto - desconto_total;
         fgts = salario_bruto*0.11;
 
-        cout << "Salário bruto: R$ \nDesconto IR (20 porcento): R$ \nDesconto INSS (10 porcento): R$ \nDesconto Sindicato (3 porcento): R$ \nFGTS (11 porcento): R$ \nDesconto total: R$  \nSalário líquido: R$ ", salario_bruto, desconto_IR, desconto_INSS, desconto_Sind, fgts, desconto_total, salario_liquido;
+        cout << "Salário bruto: R$ " << salario_bruto << endl;
+        cout << "Desconto IR (20 porcento): R$ " << desconto_IR << endl;
+        cout << "Desconto INSS (10 porcento): R$ " << desconto_INSS << endl;
+        cout << "Desconto Sindicato (3 porcento): R$ " << desconto_Sind << endl;
+        cout << "FGTS (11 porcento): R$ " << fgts << endl;
+        cout << "Desconto total: R$ " << desconto_total << endl;
+        cout << "Salário líquido: R$ " << salario_liquido << endl;
+
     }
     else{
 
-        cout << "Informe um valor válido !";
+        cout << "Informe um valor válido!" << endl;
     }
     
     return 0;
