@@ -23,7 +23,6 @@ int main(){
     float valor_litro = 0;
     float litro = 0;
     char combustivel = 0;
-    float desconto = 0;
     float desconto_litro = 0;
     float valor = 0;
 
