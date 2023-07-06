@@ -20,7 +20,7 @@ int main(){
         num2 = temp;
     }
 
-    while (num1 < num2 - 1){
+    while (num1 < num2 -1){
         
         num1++;
         cout << num1 <<endl;
