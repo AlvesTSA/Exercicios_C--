@@ -6,9 +6,9 @@ using namespace std;
 
 int main(){
 
-    int base = 0;
+    double base = 0;
     int expoente = 0;
-    int resultado = 0;
+    double resultado = 0;
     int i = 0;
 
     cout <<"Informe a base: ";
@@ -17,13 +17,41 @@ int main(){
     cin >> expoente;
 
     resultado = base;
+    cout <<base <<" elevado " <<expoente <<" = ";
 
-    for (i = 1; i < expoente; i++){
+    if(expoente > 0){
 
-        resultado *= base; 
+        i = 1;
+
+        while (i != expoente){
+            
+            i++;
+            resultado *= base; 
+
+        }
     }
+    else if(expoente < 0){
 
-    cout <<"Resultado = " <<resultado;
+        expoente *= -1;
+        i = 1;
+
+        while (i != expoente){
+            
+            i++;
+            resultado *= base; 
+
+        }
+
+        resultado = 1/resultado;
+
+    }
+    else{
+
+        resultado = 1;
+    }
+   
+
+    cout <<resultado;
 
     return 0;
     
