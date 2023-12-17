@@ -1,6 +1,8 @@
 /*25. Faça um programa que peça para n pessoas a sua idade, ao final o programa devera verificar se a média de idade da turma varia entre 0 e 25,26 e 60 e maior que 60; e então, dizer se a turma é jovem, adulta ou idosa, conforme a média calculada.*/
 
-#include <stdio.h>
+#include <iostream>
+
+using namespace std;
 
 int main(){
 
@@ -9,13 +11,13 @@ int main(){
     int soma = 0;
     float media = 0;
 
-    printf("Informe o quantas pessoas tem na sala: ");
-    scanf("%d", &n);
+    cout <<"Informe o quantas pessoas tem na sala: " <<endl;
+    cin >> n;
 
     for (int i = 1; i <= n; i++){
         
-        printf("Informe a idade da %dº pessoa: ", i);
-        scanf("%d", &idade);
+        cout <<"Informe a idade da " << i << "º" <<"pessoa: ";
+        cin >>idade;
 
         soma += idade; 
     }
@@ -23,15 +25,15 @@ int main(){
 
     if (media > 0 && media <= 25){
         
-        printf("Turma jovem");
+        cout <<"Turma jovem";
     }
     else if(media >= 26 && media <= 60){
 
-        printf("Turma adulta");
+        cout <<"Turma adulta";
     }
     else{
 
-        printf("Turma idosa");
+        cout <<"Turma idosa";
     }
     
     return 0;
