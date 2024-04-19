@@ -2,22 +2,18 @@
 
 #include <iostream>
 #include <random>
-
+#include <ctime>
 using namespace std;
  
 int main(){
 
     int contador[6] = {0};
     int num = 0;
-
-    random_device rd;
-    mt19937 mt(rd());
-    uniform_int_distribution<int> dist(1,6);
+    srand(time(nullptr));
 
     for (int i = 0; i < 100; i++){
 
-        
-        num = dist(mt);
+        num = (rand() % 6) + 1;
 
         switch (num){
         case 1:
